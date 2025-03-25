@@ -1,9 +1,17 @@
-{
-  "@context": ["dtmi:dtdl:context;3"],
-  "@id": "dtmi:com:example;1",
-  "@type": "Interface",
-  "extends": {
+[
+  {
+    "@context": ["dtmi:dtdl:context;3"],
+    "@id": "dtmi:com:example;1",
     "@type": "Interface",
-    "@id": "dtmi:com:example:base;1"
+    "extends": {
+      "@type": "Interface",
+      "@id": "dtmi:com:example:base;1"
+    }
+  },
+  {
+    "@context": ["dtmi:dtdl:context;3"],
+    "@id": "dtmi:com:edit;1",
+    "@type": "Interface",
+    "displayName": "edit"
   }
-}
+]
