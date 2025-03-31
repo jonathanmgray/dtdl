@@ -19,7 +19,8 @@
       {
         "@type": "Property",
         "name": "propertyNameEdit",
-        "comment": "propertyCommentEdit"
+        "comment": "propertyCommentEdit",
+        "schema": "float"
       },
       {
         "@type": "Relationship",
