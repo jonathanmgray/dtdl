@@ -1,0 +1,34 @@
+[
+  {
+    "@context": ["dtmi:dtdl:context;3"],
+    "@id": "dtmi:com:example;1",
+    "@type": "Interface",
+    "extends": {
+      "@type": "Interface",
+      "@id": "dtmi:com:example:base;1"
+    }
+  },
+  {
+    "@context": ["dtmi:dtdl:context;3"],
+    "@id": "dtmi:com:edit;1",
+    "@type": "Interface",
+    "displayName": "displayNameEdit",
+    "description": "descriptionEdit",
+    "comment": "commentEdit",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "propertyNameEdit",
+        "comment": "propertyCommentEdit"
+      },
+      {
+        "@type": "Relationship",
+        "name": "relationshipName",
+        "target": "dtmi:com:example;1",
+        "comment": "relationshipCommentEdit",
+        "displayName": "relationshipDisplayNameEdit",
+        "description": "relationshipDescriptionNameEdit"
+      }
+    ]
+  }
+]
