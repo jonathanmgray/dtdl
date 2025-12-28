@@ -1,14 +1,14 @@
 [
   {
-    "@context": ["dtmi:dtdl:context;3"],
     "@id": "dtmi:com:two;1",
     "@type": "Interface",
-    "displayName": "edit"
+    "@context": ["dtmi:dtdl:context;3"],
+    "displayName": "two"
   },
   {
-    "@context": ["dtmi:dtdl:context;3"],
     "@id": "dtmi:com:three;1",
     "@type": "Interface",
-    "displayName": "edit"
+    "@context": ["dtmi:dtdl:context;3"],
+    "displayName": "three"
   }
 ]
